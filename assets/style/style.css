@@ -5,6 +5,7 @@ body{
     margin-left:15%;
     margin-right: 15%;
 }
+/*HEADER E MENU*/
 .container{
     display: grid;
     grid-auto-flow: column;
@@ -41,4 +42,42 @@ header{
 }
 a{
     color: black;
+    text-decoration: none;
+}
+/*APRESENTAÇÃO E FOTO*/
+#description {
+    font-family: 'Poppins', sans-serif;
+}
+#description p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+    font-style: normal;
+}
+#description h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+    color: black;
+}
+#btnApresent{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    background: #1F7CFF;
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+#descriptionImg{
+    height: 540;
+    margin-left: 42px;
+}
+#descriptionImg img{
+    height: 540px;
+    width: 100%;
+    border-radius: 20px;
 }
